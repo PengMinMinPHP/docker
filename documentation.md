@@ -18,3 +18,11 @@
 
 ## 删除容器
 > docker rm [容器 id]
+
+## 解压 tar.xz 后缀的文件
+> xz -d xxx.tar.xz
+> tar xvf xxx.tar
+
+## 创建 tar.xz 后缀的文件
+> tar cvf xxx.tar xxx/
+> xz -z xxx.tar
